@@ -34,3 +34,5 @@ let countDeafRats = function(town) {
   }
   return deafs;
 }
+
+// or
