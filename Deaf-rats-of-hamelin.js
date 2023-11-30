@@ -36,3 +36,15 @@ let countDeafRats = function(town) {
 }
 
 // or
+
+let deafRatsCount = function(town) {
+  let deafRats = 0;
+  const townArr = 
+    town.split(' ')
+    .join('')
+    .split('')
+    .reduce((a,b,i) => {
+      return i%2 !== 0 && b === '~' ? deafRats++ : deafRats
+    });
+  return deafRats
+}
