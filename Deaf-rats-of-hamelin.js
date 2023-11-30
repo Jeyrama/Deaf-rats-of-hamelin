@@ -14,3 +14,6 @@ Example:
   ex2 P O~ O~ ~O O~ has 1 deaf rat
   ex3 ~O~O~O~OP~O~OO~ has 2 deaf rats
 */
+
+
+// Solution
